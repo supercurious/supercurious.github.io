@@ -18,10 +18,12 @@ email: iamvincenttam@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of notes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://supercurious.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iamvincenttam
 github_username:  supercurious
 author: Vincent Tam
+disqus:
+  shortname: supercurious
 
 # Build settings
 markdown: kramdown
