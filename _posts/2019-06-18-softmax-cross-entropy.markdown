@@ -145,7 +145,7 @@ This approach of visualizing raw network outputs, examining function characteris
 
 ## Resources
 
-- [Chris Olah: Visual Information](https://colah.github.io/posts/2015-09-Visual-Information/)
+- [Chris Olah: Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
 - [Michael Nielsen: The cross-entropy cost function](http://neuralnetworksanddeeplearning.com/chap3.html)
 - [Jeremy Howard: What is torch.nn really? (PyTorch Tutorials)](https://pytorch.org/tutorials/beginner/nn_tutorial.html)
 - [TensorFlow Tutorials](https://www.tensorflow.org/tutorials/)
