@@ -373,7 +373,9 @@ The reward histogram shows the vast majority of transitions result in positive r
 
 Now let's use the trained agent to interact with the Reacher environment. 
 
-The GIF animation in Figure 1 previews the first several time steps. Here's a full video showing the trained agent across 1000 time steps: [https://youtu.be/JC9iwMmjpzo](https://youtu.be/JC9iwMmjpzo).
+The GIF animation in Figure 1 previews the first several time steps, but here's a full video showing the trained agent across 1000 time steps: [https://youtu.be/JC9iwMmjpzo](https://youtu.be/JC9iwMmjpzo).
+
+{% include youtubePlayer.html id="JC9iwMmjpzo" %}
 
 
 
