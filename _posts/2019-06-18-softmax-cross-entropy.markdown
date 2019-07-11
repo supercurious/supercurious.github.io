@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building Intuition for Softmax, Log-Likelihood, and Cross Entropy"
-date:   2019-06-18 18:35:18 -0700
+date:   2019-06-18 12:00:00 -0700
 categories:
 author: Vincent Tam
 ---
@@ -140,6 +140,10 @@ It’s essentially the negative sum of the log of predicted probabilities, weigh
 We started with a basic network architecture with a single hidden layer. We investigated the raw outputs from the network and casted them as a probability distribution using the softmax function.  We leveraged the properties of logarithms to formulate a measure of loss (log-probability) that would be near zero for a correct and confident prediction while growing exponentially with increasing error. We took the negative of log probability to express a loss function suitable for minimization by the optimizer. We reasoned that log probabilities for each class should only contribute to the loss in proportion to the true probability of that class, arriving at cross entropy loss. We also demonstrated how optimizing network parameters to decrease this loss produced a well-trained image classifier. 
 
 This approach of visualizing raw network outputs, examining function characteristics, and reasoning about loss contributions was useful to me for building intuition about softmax, log-likelihood, and cross entropy loss. I hope you found it valuable as well. If I'm missing anything here or you've come across insightful explanations on this topic, please let me know!
+
+
+
+> Explore the code and reproduce these results for yourself in this notebook: [supercurious/softmax-cross-entropy](https://github.com/supercurious/softmax-cross-entropy/blob/master/softmax_cross_entropy.ipynb)
 
 
 

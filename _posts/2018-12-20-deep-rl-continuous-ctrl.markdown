@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep Reinforcement Learning for Continuous Control"
-date:   2018-12-20 00:00:00 -0700
+date:   2018-12-20 12:00:00 -0700
 categories:
 author: Vincent Tam
 ---
@@ -390,6 +390,10 @@ The next steps involve comparing learning performance across multiple random see
 Also, many techniques were applied in combination to this learning task. Performing an ablation study would provide valuable insight into the impact of individual techniques. For example, how much did using a multi-step return method help? How important was using clipped double Q-learning? The present work was performed on a laptop, so running these ablation studies across multiple random seeds would require more time and computational resources.
 
 The current work uses action space noise for exploration. Researchers [12] have demonstrated good results with parameter space noise, another promising technique worth implementing.
+
+
+
+> Explore the code and reproduce these results for yourself here: [supercurious/deep-rl-continuous-control](https://github.com/supercurious/deep-rl-continuous-control)
 
 
 
